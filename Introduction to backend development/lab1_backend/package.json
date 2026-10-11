@@ -1,0 +1,22 @@
+{
+  "name": "lab1_backend",
+  "version": "1.0.0",
+  "description": "Лабораторная работа №1: первый HTTP-сервер",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "dev:api1": "nodemon api1.js",
+    "start:api1": "node api1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
