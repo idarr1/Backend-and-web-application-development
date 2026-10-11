@@ -1,0 +1,20 @@
+{
+  "name": "lab2_crud",
+  "version": "1.0.0",
+  "description": "Лабораторная работа №2: CRUD API для городов",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Гуртуев Идар Алиевич",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
