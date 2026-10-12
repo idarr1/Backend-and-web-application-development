@@ -1,0 +1,20 @@
+{
+  "name": "lab3_routing_params",
+  "version": "1.0.0",
+  "description": "Лабораторная работа №3: маршрутизация, параметры пути и query-параметры",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Гуртуев Идар Алиевич",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
