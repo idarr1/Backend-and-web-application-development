@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS countries (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS cities (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    population INTEGER,
+    area REAL,
+    country_id INTEGER,
+    FOREIGN KEY (country_id) REFERENCES countries(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_city_name ON cities(name);
